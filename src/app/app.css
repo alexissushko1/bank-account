@@ -14,3 +14,16 @@ main {
 
   background: white;
 }
+
+
+@media (max-width: 300px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  th {
+    text-wrap: wrap;
+  }
+}
